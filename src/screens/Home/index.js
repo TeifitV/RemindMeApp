@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {View, Image, Text, Button, TouchableOpacity} from 'react-native';
-import styles from './HomeStyles.js';
+import styles from './Styles.js';
 /** const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
   android:

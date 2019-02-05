@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
   },
   button:{
     width: 325,
-    height: 55, 
+    height: 55
   }
 });
 
