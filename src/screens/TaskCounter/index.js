@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {View,Text} from 'react-native';
-import styles from './Styles.js'
-export default class Tasks extends Component {
+import styles from './Styles.js';
+export default class TasksCounter extends Component {
   countTasks(){
     return 6;
   }

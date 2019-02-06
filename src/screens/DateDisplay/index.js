@@ -16,7 +16,7 @@ export default class DateDisplay extends Component{
         <Image
         style={styles.container}
         source="./../../images/icon.circle.jpg"></Image>
-        <Text style={styles.DateDisplay}>parseDate()</Text>
+        <Text style={styles.DateDisplay}>`parseDate()`</Text>
       </View>
     }
   }
