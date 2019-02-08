@@ -8,7 +8,7 @@
 
 import {createStackNavigator, createAppContainer} from 'react-navigation';
 import Home from './screens/Home';
-import Tasks from './screens/Tasks';
+import TaskScreen from './screens/TaskScreen';
 /** const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
   android:
@@ -22,8 +22,8 @@ const Screens = createStackNavigator({
   Home: {
     screen: Home
   },
-  Tasks: {
-    screen: Tasks
+  TaskScreen: {
+    screen: TaskScreen
   },
 },{
   headerMode: 'none'

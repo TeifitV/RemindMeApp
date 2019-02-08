@@ -2,19 +2,23 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#ED184A',
-    flex:1,
+    height:800,
+    backgroundColor: 'white',
     justifyContent: 'space-between',
     alignItems: 'center'
   },
-  logo: {
-    width: 285,
-    height: 75,
-    marginTop:100
+  text: {
+    flex:2,
+    width: '100%',
+    height: 80,
+    marginTop:100,
+    fontSize: 20,
+    color:'black'
   },
-  button:{
-    width: 325,
-    height: 55
+  taskCheck:{
+    flex:1,
+    width: 20,
+    height: 20
   }
 });
 

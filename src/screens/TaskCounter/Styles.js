@@ -2,19 +2,19 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#ED184A',
-    flex:1,
-    justifyContent: 'space-between',
+    marginTop:20,
+    backgroundColor: 'rgba(0,0,0,0)',
+    //justifyContent: 'space-between',
+
+
+    justifyContent:'center',
     alignItems: 'center'
   },
-  logo: {
-    width: 285,
-    height: 75,
-    marginTop:100
-  },
-  button:{
-    width: 325,
-    height: 55
+    text: {
+    justifyContent:'center',
+    fontSize: 28,
+    fontFamily:'sans-serif-condensed',
+    color: 'white'
   }
 });
 

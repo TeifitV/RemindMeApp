@@ -5,19 +5,17 @@ import styles from './Styles.js';
 export default class DateDisplay extends Component{
 
   getDate(){
-
+    return 'f';
   }
   parseDate(){
-    return "February 6 2019";
+    return "SABADO 27 DE ENERO 2018";
   }
   render(){
-    return{
+    return(
       <View style={styles.container}>
-        <Image
-        style={styles.container}
-        source="./../../images/icon.circle.jpg"></Image>
-        <Text style={styles.DateDisplay}>`parseDate()`</Text>
+
+        <Text style={styles.DateDisplay}>{this.parseDate()}</Text>
       </View>
-    }
+    )
   }
 }

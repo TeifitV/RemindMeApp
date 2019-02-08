@@ -10,8 +10,8 @@ export default class TasksCounter extends Component {
     //Can only have one parent View
     return (
       <View style={styles.container}>
-        <Text>`${countTasks()} Pendientes`</Text>
-      </View>
+        <Text style={styles.text}>{this.countTasks()} Pendientes</Text>
+        </View>
     );
   }
 }

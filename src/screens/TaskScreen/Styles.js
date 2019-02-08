@@ -1,9 +1,15 @@
 import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
-  container: {
+  container:{
+
+    flexDirection:'column'
+  },
+  TaskHeader: {
     backgroundColor: '#ED184A',
-    flex:1,
+    //flex:.8,
+      height: 600,
+    width: '100%',
     justifyContent: 'space-between',
     alignItems: 'center'
   },
@@ -15,6 +21,10 @@ const styles = StyleSheet.create({
   button:{
     width: 325,
     height: 55
+  },
+  TaskList:{
+  height:'66%',
+  width: '100%'
   }
 });
 

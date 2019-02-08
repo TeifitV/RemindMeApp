@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View,Text} from 'react-native';
+import {View,Text,Image} from 'react-native';
 import styles from './Styles.js';
 export default class Tasks extends Component {
   render() {
@@ -7,7 +7,11 @@ export default class Tasks extends Component {
     //Can only have one parent View
     return (
       <View style={styles.container}>
-        <Text>TASK</Text>
+
+        <Image
+        style={styles.taskCheck}
+        source={require("./../../images/icon-circle.png")}></Image>
+        <Text>TASK 1</Text>
       </View>
     );
   }

@@ -7,9 +7,11 @@ export default class TaskScreen extends Component{
 
   render(){
     return (
-      <View>
-        <TaskHeader></TaskHeader>
-        <TaskList><TaskList>
+      <View style={styles.container}>
+        <TaskHeader style={styles.TaskHeader}></TaskHeader>
+        <TaskList style={styles.TaskList}>
+
+        </TaskList>
       </View>
     )
   }

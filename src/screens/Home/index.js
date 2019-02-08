@@ -12,7 +12,7 @@ import styles from './Styles.js';
 export default class Home extends Component {
 
   goToHome(){
-    this.props.navigation.navigate('Tasks');
+    this.props.navigation.navigate('TaskScreen');
   }
   render() {
     //Always return an element
