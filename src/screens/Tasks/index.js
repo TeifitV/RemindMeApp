@@ -11,7 +11,7 @@ export default class Tasks extends Component {
         <Image
         style={styles.taskCheck}
         source={require("./../../images/icon-circle.png")}></Image>
-        <Text>TASK 1</Text>
+        <Text style={styles.text}>TASK 1</Text>
       </View>
     );
   }

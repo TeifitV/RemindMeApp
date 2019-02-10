@@ -2,7 +2,8 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    marginTop:20,
+    marginTop:5,
+    marginBottom:5,
     backgroundColor: 'rgba(0,0,0,0)',
     //justifyContent: 'space-between',
 

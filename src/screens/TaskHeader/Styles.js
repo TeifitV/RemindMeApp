@@ -3,24 +3,30 @@ import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
   container: {
     //flex:1,
-    height:600,
+    //height:600,
       //alignSelf: 'stretch',
+    //flex:1,
+    zIndex:2,
     justifyContent: 'space-between',
     alignItems: 'center'
   },
   DateDisplay: {
-    width: 285,
-    height: 75,
-    marginTop:100
+    zIndex:1,
+    width: '100%',
+    height: 50,
+    marginTop:10
   },
   TaskCounter:{
+    zIndex:2,
     width:'100%',
-    height: 200,
-    marginTop: 100
+    height: 50,
+    marginTop: 20
   },
   userImage:{
+    zIndex:2,
     borderWidth:1,
-    marginTop: 25,
+    marginTop: 20,
+    marginBottom: 5,
     height:120,
     width: 120,
     alignItems:'center',
@@ -29,10 +35,13 @@ const styles = StyleSheet.create({
     borderRadius:100
   },
   backgroundImage:{
-  height:600,
+  //height:600,
     //height: 600,
     alignItems: 'center',
-    width: '100%'
+    width: '100%',
+    height:'auto',
+    alignSelf:"flex-start",
+    zIndex:0
   }
 });
 

@@ -2,20 +2,15 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#ED184A',
-    flex:1,
-    height:'60%',
+    //backgroundColor: '#ED184A',
+    flexDirection:'column',
     justifyContent: 'space-between',
-    alignItems: 'center'
+    alignItems: 'center',
+    width:'100%'
   },
-  logo: {
-    width: 285,
-    height: 75,
-    marginTop:100
-  },
-  button:{
-    width: 325,
-    height: 55
+  Tasks:{
+    width: '100%',
+    flex:1
   }
 });
 

@@ -8,7 +8,13 @@ export default class TaskList extends Component {
     //Can only have one parent View
     return (
       <View style={styles.container}>
-        <Tasks></Tasks> 
+        <Tasks style={styles.Tasks}></Tasks>
+        <Tasks style={styles.Tasks}></Tasks>
+        <Tasks style={styles.Tasks}></Tasks>
+        <Tasks style={styles.Tasks}></Tasks>
+        <Tasks style={styles.Tasks}></Tasks>
+        <Tasks style={styles.Tasks}></Tasks>
+        <Tasks style={styles.Tasks}></Tasks>
       </View>
     );
   }

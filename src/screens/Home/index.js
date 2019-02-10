@@ -27,7 +27,7 @@ export default class Home extends Component {
         >
           <Text style={styles.buttonText}>COMENZAR</Text>
         </TouchableOpacity>
-        <Image source={require("./../../images/avatars.png")}></Image>
+        <Image style={styles.avatarsImage} source={require("./../../images/avatars.png")}></Image>
       </View>
     );
   }

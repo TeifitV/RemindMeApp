@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#ED184A',
+    backgroundColor: '#ff023d',
     flex:1,
     justifyContent: 'space-between',
     alignItems: 'center'
@@ -14,7 +14,21 @@ const styles = StyleSheet.create({
   },
   button:{
     width: 325,
-    height: 55
+    height: 55,
+    alignItems: 'center',
+    borderRadius:100,
+    borderWidth:2,
+    borderColor:'white',
+    backgroundColor: '#ff023d'
+  },
+  avatarsImage:{
+    //width:'90%'
+  },
+  buttonText:{
+    color:'white',
+    fontFamily: 'Roboto',
+    marginTop: 10,
+    fontSize:20
   }
 });
 
